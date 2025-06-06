@@ -1,8 +1,8 @@
 package com.devsuperior.bds02.services.exceptions;
 
-public class ResourceNotFoundException extends RuntimeException {
+public class DataBaseException extends RuntimeException {
 
-    public ResourceNotFoundException(String msg) {
+    public DataBaseException(String msg) {
         super(msg);
     }
 }
